@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items:center ;
+    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+}
+.wrapper{
+    max-width: 1800px;
+    width: 90%;
+    background: #fff;
+    padding: 5px 6px ;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #00c698 ;
+}
+.header{
+    background-color: lightgreen;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+.header a {
+    text-decoration: none;
+}
+.navbar{
+    background: #71b7e6;
+    padding: 5px;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar  li{
+    display: inline;
+    padding: 25px;
+}
+.navbar li a{
+    text-decoration: none;
+}
+.navbar li a:hover{
+    color: #ffffff;
+}
+.content{
+    width: 80%;
+    float: left;
+    background-color: rgb(239, 170, 191);
+    padding: 25px;
+    text-align: center;
+    min-height: 400px;
+
+
+}
+.content p{
+    text-align: justify;
+    margin: 25px;
+}
+.sidebar{
+    width: 20%;
+    height: 100%;
+    float:right;
+    background-color: aquamarine;
+    padding: 25px ;
+    min-height: 400px;
+    
+}
+.sidebar li a{
+    text-decoration: none;
+}
+.footer{
+    clear: both;
+    background-color: aqua;
+    padding: 5px;
+    text-align: center;
+
+    
+}
+
